@@ -22,3 +22,7 @@
 # for i in range(1,110):
 #     total+=i
 # print(f"Sum is {total}")
+
+# word = 'python'
+# for i in range(len(word)-1, -1, -1) :
+#     print(word[i], end=" ")
