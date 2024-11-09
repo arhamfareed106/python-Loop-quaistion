@@ -53,22 +53,30 @@
 # print(f"total vowels in {word} is {count}")
 
 
-                    ###### Questions  6                                   #######
+                    ###### Questions  7                                  #######
                  #######   print fabonacci sequence up to 10 term         #######
 
 
 
-from types import new_class
+# a=0
+# b=1
 
-from numpy import piecewise
+# print(a,b ,end=" ")
+
+# for _ in range(10):
+#     next_term=a+b
+#     print(next_term, end=" ")
+#     a,b = b,next_term
 
 
-a=0
-b=1
 
-print(a,b ,end=" ")
+                    ###### Questions  8                                  #######
 
-for _ in range(10):
-    next_term=a+b
-    print(next_term, end=" ")
-    a,b = b,next_term
+
+n= 10
+factorial= 1
+
+for i in range(1, n+1):
+    factorial *=i
+
+print(f"factorial of {n} is {factorial}")
