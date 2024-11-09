@@ -31,7 +31,7 @@
 #     total+=i
 # print(f"Sum is {total}")
 
-                    ###### Questions  4 ######
+                    ###### Questions  5 ######
 
 
 
@@ -40,7 +40,7 @@
 #     print(word[i], end=" ")
 
 
-                    ###### Questions  5 ######
+                    ###### Questions  6 ######
 
 
 
@@ -50,9 +50,25 @@
 # for char in word:
 #     if char in vowels:
 #         count += 1
-
-
 # print(f"total vowels in {word} is {count}")
 
 
+                    ###### Questions  6                                   #######
+                 #######   print fabonacci sequence up to 10 term         #######
 
+
+
+from types import new_class
+
+from numpy import piecewise
+
+
+a=0
+b=1
+
+print(a,b ,end=" ")
+
+for _ in range(10):
+    next_term=a+b
+    print(next_term, end=" ")
+    a,b = b,next_term
