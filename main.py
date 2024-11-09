@@ -26,3 +26,13 @@
 # word = 'python'
 # for i in range(len(word)-1, -1, -1) :
 #     print(word[i], end=" ")
+
+
+# vowels= "aeiou"
+# word="python django arham innsan"
+# count= 0
+# for char in word:
+#     if char in vowels:
+#         count += 1
+
+# print(f"total vowels in {word} is {count}")
