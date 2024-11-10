@@ -73,10 +73,15 @@
                     ###### Questions  8                                  #######
 
 
-n= 10
-factorial= 1
+# n= 10
+# factorial= 1
 
-for i in range(1, n+1):
-    factorial *=i
+# for i in range(1, n+1):
+#     factorial *=i
 
-print(f"factorial of {n} is {factorial}")
+# print(f"factorial of {n} is {factorial}")
+
+
+                    ###### Questions  9                            #######
+
+
