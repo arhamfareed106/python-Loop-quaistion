@@ -88,3 +88,11 @@
 
 
 
+def find_missing_number(nums):
+    n = len(nums) + 1
+    expected_sum = n * (n + 1) // 2
+    actual_sum = sum(nums)
+    return expected_sum - actual_sum
+
+# Example usage:
+print(find_missing_number([3, 7, 1, 2, 8, 4, 5]))  # Output: 6
