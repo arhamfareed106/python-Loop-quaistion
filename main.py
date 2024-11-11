@@ -109,3 +109,18 @@
   # Output: "jumps"
 
 
+
+# num = 7
+# is_prime = True  # Start with the assumption that num is prime
+
+# # Check divisibility from 2 up to the square root of num
+# for i in range(2, int(num ** 0.5) + 1):
+#     if num % i == 0:
+#         is_prime = False  # num is not prime if divisible by i
+#         break
+
+# # Determine if num is prime
+# if is_prime and num > 1:
+#     print(f"{num} is a prime number")
+# else:
+#     print(f"{num} is not a prime number")
