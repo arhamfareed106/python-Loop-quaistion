@@ -96,3 +96,16 @@
 
 # # Example usage:
 # print(find_missing_number([3, 7, 1, 2, 8, 4, 5]))  # Output: 6
+
+
+# def longest_word(sentence):
+#     words = sentence.split()
+#     longest = max(words, key=len)
+#     return longest
+
+# # Example usage:
+# print(longest_word("The quick brown fox jumps over the lazy dog"))
+
+  # Output: "jumps"
+
+
